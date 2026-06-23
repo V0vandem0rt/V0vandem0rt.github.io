@@ -1,0 +1,179 @@
+html {
+    background-color: whitesmoke;
+}
+body {
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.logo {
+    float: left;
+    margin: 20px 30px;
+}
+
+.loginactions {
+    margin: 20px 30px;
+}
+
+nav ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+display: flex;
+color:gray;
+}
+
+nav ul li a {
+  display: block;
+  color: gray;
+  text-align: center;
+  padding: 5px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: whitesmoke;
+  border-radius: 5px;
+}
+
+.login-button {
+    font-family: inherit;
+    font-size: 16px;
+    padding: 5px 16px;
+    border: none;
+    background-color: transparent;
+}
+
+.login-button:hover {
+    color: gray;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+
+.signup-button {
+  font-family: inherit;
+  font-size: 16px;
+  padding: 5px 16px;
+  background-color: rgb(4, 19, 48);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.signup-button:hover {
+  background-color: grey;
+  border-radius: 5px;
+}
+
+.intro-section {
+    text-align: center;
+    background-color: rgb(4, 19, 48);
+    color: white;
+    padding: 50px;
+
+}
+.get-started-button {
+  font-family: inherit;
+  font-size: 16px;
+  padding: 5px 16px;
+  background-color: white;
+  color: rgb(4, 19, 48);
+  border: transparent;
+  border-radius: 5px;
+  margin: 10px;
+}
+.get-started-button:hover {
+  background-color: grey;
+  border-radius: 5px;
+}
+
+.view-curriculum-button {
+  font-family: inherit;
+  font-size: 16px;
+  padding: 5px 16px;
+  background-color: rgb(4, 19, 48);
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin 10px;
+}
+.view-curriculum-button:hover {
+  background-color: grey;
+  border-radius: 5px;
+}
+
+.main-section {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: block;
+    float: left;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    border-top: 3px solid red;
+
+}
+
+
+.card-image {
+    width: 30px;
+    height: auto;
+    border-radius: 2px;
+}
+
+#green {
+    border-top: 3px solid green;
+}
+
+#green h3 {
+    color: green;
+}
+
+#blue {
+    border-top: 3px solid blue;
+}
+
+#blue h3 {
+    color: blue;
+}
+
+li strong {
+    color: #0969da; /* GitHub-style blue */
+}
+
+section a {
+    text-decoration: none;
+}
+
+.footer {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;;
+    border-top: 1px solid rgb(202, 202, 202);
+    height: 100%;
+}
+
+.footer p {
+    display:block;
+    margin: 0;
+    padding: 0;
+    color: gray;
+}
